@@ -12,7 +12,8 @@
     
   "start": "node --env-file=.env ./src/index.js",
     
-    "dev": "npx nodemon --env-file=.env ./src/index.js"
+    "dev": "npx nodemon --env-file=.env ./src/index.js",
+   "DB":"nODE --env-file=.env  src/createDatabase.js"
   },
   "author": "krishan kumar patidar",
   "license": "ISC",
