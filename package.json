@@ -1,0 +1,24 @@
+{
+  "name": "youtubesubcriber-almabetter-project",
+  "version": "1.0.0",
+  "description": "backend-project",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    
+    
+    
+    "createDB": " npx nodemon --env-file=.env  src/createDatabase.js",
+    
+  "start": "node --env-file=.env ./src/index.js",
+    
+    "dev": "npx nodemon --env-file=.env ./src/index.js"
+  },
+  "author": "krishan kumar patidar",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1"
+  }
+}
