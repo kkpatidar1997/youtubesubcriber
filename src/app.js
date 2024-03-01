@@ -11,7 +11,9 @@ app.use(express.static(path.join(cwd(), "public")));
 
 // Routes
 // API 
+
 app.get("/subscribers", async (req, res) => {
+  
   try {
     let subscribers = await Subscriber.find();
     res.status(200).send(subscribers);

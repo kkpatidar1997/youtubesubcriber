@@ -5,7 +5,7 @@ GET YOUTUBE SUBSCRIBERS
 
 
 <h2 align='center'>
-<a href='https://get-youtube-subscribers-eight.vercel.app/' target="_blank">DEMO</a>
+<a href='https://youtubesubcriber-4.onrender.com/' target="_blank">DEMO</a>
 </h2>
 
 ## Table of Contents
@@ -16,8 +16,6 @@ GET YOUTUBE SUBSCRIBERS
 - [Prerequisites ](#prerequisites)
 - [Installation & Run](#installation-and-run)
 - [API Reference ](#api-reference)
-- [Contribute ](#contribute)
-- [Contributors ](#contributors)
 - [License ](#license)
 - [Contact ](#contact)
 - [Acknowledgments ](#acknowledgments)
@@ -26,13 +24,12 @@ GET YOUTUBE SUBSCRIBERS
 ## Introduction
 Get YouTube Subscribers is an Application that serves as a RESTful API created by using Mongodb in Node.js. It is designed to fetch all subscribers information related to YouTube channel subscribers. The primary technologies used to develop this application are Node.js and Express.js which are used to create API endpoint and manage HTTP request. Additionally, this application utilizes MongoDB as the database to store and manage subscribers data efficiently.
 
-![Get YT SUB](https://github.com/Abhi1o/GET-YOUTUBE-SUBSCRIBERS/assets/87490161/7e4f4776-cd79-4577-bb26-2ef06b30fa0a)
+![Get YT SUB](https://github.com/kkpatidar1997/youtubesubcriber.git)
 
 ## Features
 Some features of this application :
 - **Seamless Data Retrieval:** Effortlessly fetch subscribers data from YouTube channels using API endpoints.
 - **Structured JSON Output:** Present retrieved data in well-organized JSON format for easy interpretation.
-- **Versatile API Endpoints:** Provide users with multiple API endpoints catering to various data retrieval needs.
 - **Effective YouTube Data API Integration:** Interact seamlessly with the YouTube Data API for accurate data retrieval.
 - **User-Friendly Setup:** Follow a straightforward setup process, enabling swift utilization of the tool.
 
@@ -45,7 +42,7 @@ GET-Youtube-Subscriber is build using the following technologies:
 
 ## Prerequisites
 
-To run this project locally, make sure you have the following installed:
+To run this project locally, make sure you have the following :
 
 - [Node.js](https://nodejs.org/)
 - [MongoDB](https://www.mongodb.com/)
@@ -53,7 +50,7 @@ To run this project locally, make sure you have the following installed:
 ## Installation and Run
 1. Clone the repository from GitHub:
     ```
-     git clone https://github.com/Abhi1o/GET-YOUTUBE-SUBSCRIBERS
+     git clone https://github.com/kkpatidar1997/youtubesubcriber.git
     ```
 2. Redirect to the project folder:
     ```
@@ -68,7 +65,7 @@ To run this project locally, make sure you have the following installed:
    - Add the following environment variables to the `.env` file:
       ```
        PORT=3000                             # The port on which the application will run
-       DATABASE_URI= <your_uri_here>         # The MongoDB connection string
+      MONGODB_URI= <your_uri_here>         # The MongoDB connection string
       ```
 5. Create Database:
     - Inserting subscribers data into MongoDB.
@@ -90,34 +87,20 @@ Following API endpoints for retrieving subscribers information using the GET met
 - `/subscribers/names`: Obtain subscribers name along with the channel they are subscribed to.
 - `/subscribers/id`: Access subscriber information based on their ID.
 
-## Contribute
-Contributions are welcome! If you'd like to contribute, please follow our [Contribution Guidelines](CONTRIBUTING.md).
-
-## Contributors
-- Abhishek Kumar [GitHub](https://github.com/abhi1o) | [LinkedIn](https://linkedin.com/in/abhi--) | [YouTube](https://www.youtube.com/watch?v=1SHSj539rQg)
-- Aman Giri [GitHub](https://github.com/amangiri7) | [LinkedIn](https://www.linkedin.com/in/aman-giri-6b3a3b284/) | [YouTube](https://www.youtube.com/watch?v=Ur-M8QxRqQ8)
-- Damini Gadpal [GitHub](https://github.com/Daminigadpal) | [LinkedIn](https://www.linkedin.com/in/damini-gadpal-01996716b) | [YouTube](https://youtu.be/tzykJmtIHvg)
-
 ## License
 This project is Distributed under the ISC License. See [LICENSE](./LICENSE) for more information.
 
 ## Contact
-If you have any questions or suggestions, feel free to reach out to us at [Gmail](https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSGLPhhCThjSQBxqqKCTksFHbgmPZGmrTXlskrtrXBgHxRqbmdRdzJJlNBtvTWsTLmjdVLbb).
+If you have any questions or suggestions, feel free to reach out to us at 
+EMAIL : kkpatidar1997@gmail.com.
 
 ## Acknowledgment
 We'd like to thank the open-source community and the creators of Node.js, Express, and MongoDB for their valuable contributions.
 
 We would also like to thank the contributors to this project for their valuable contributions.
 
-
-
-
 ## Happy Learning
 
-<p align="center">
-<a href="https://github.com/Abhi1o/get_youtube_subscribers" title="GET youtube subscriber projects">
-<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
-    
 </a>
 </p>
 
